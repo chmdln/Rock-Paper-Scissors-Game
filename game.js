@@ -28,12 +28,6 @@ function getHumanChoice() {
 // console.log(getHumanChoice()); 
 
 
-
-
-// console.log(playRound()); 
-
-
-
 function playGame() {
 
     let humanScore = 0; 
