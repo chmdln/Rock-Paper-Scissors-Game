@@ -82,7 +82,8 @@ function playGame() {
     return `It's a tie! Your score: ${humanScore}, computer score: ${computerScore}` 
 }
 
-console.log(playGame()); 
+// console.log(playGame()); 
+
 
 
 
