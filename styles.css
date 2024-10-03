@@ -9,6 +9,7 @@ body {
     padding: 0;  
     height: 100vh; /* Full height of the viewport */
     display: flex; 
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: "Fresca", sans-serif;
@@ -79,6 +80,12 @@ img:hover {
 .reset-button:hover {
     border: 2px solid yellow; 
     box-shadow: 0px 0px 20px 3px rgba(255, 255, 0, 0.5);
+}
+
+.icon-design {
+    width: 800px; 
+    font-size: 12px; 
+    opacity: 0.5; 
 }
 
 
