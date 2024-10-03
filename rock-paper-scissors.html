@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rock Paper Scissors</title>
+        <link rel="stylesheet" href="./styles.css">
+        <!-- import Google font Fresca -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fresca&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">Let's play Rock, Paper, Scissors!</div>
+
+            <div class="score-container">
+                <div class="round-number">Round: 0/10</div>
+                <div class="player-score">Your score: 0 </div>
+                <div class="computer-score">Computer score: 0</div>
+            </div>
+
+            <div class="result-container"></div>
+
+            <div class="choices-container">
+                <div class="choice-container">
+                    <div>Rock</div>
+                    <img id = "rock" class="js-choice-button" src="./images/rock.png">  
+                </div>
+                
+                <div class="choice-container">
+                    <div>Paper</div>
+                    <img id = "paper" class="js-choice-button" src="./images/paper.png"> 
+                </div>
+
+                <div class="choice-container">
+                    <div>Scissors</div>
+                    <img id = "scissors" class="js-choice-button" src="./images/scissors.png">
+                </div>  
+            </div>
+
+            <button class="reset-button">Reset score</button>
+        </div>
+
+        <script src="./game.js"></script>
+    </body>
+</html>
+

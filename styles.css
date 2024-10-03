@@ -1,0 +1,87 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0; 
+    padding: 0;  
+    height: 100vh; /* Full height of the viewport */
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-family: "Fresca", sans-serif;
+}
+
+.container {
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px; 
+    width: 800px; 
+    background-color: lightgrey; 
+    border: 2px solid rgb(255, 255, 0); 
+    border-radius: 10px; 
+}
+
+.header {
+    font-size: 36px; 
+    font-weight: 900; 
+}
+
+.score-container {
+    font-size: 18px; 
+}
+
+.result-container {
+    color: red; 
+    font-size: 24px;
+    font-weight: 700; 
+}
+
+.choices-container {
+    display: flex; 
+    gap: 10px; 
+}
+
+.choice-container {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 190px; 
+    height: 190px; 
+    border: 1px solid white; 
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image maintains its aspect ratio */
+}
+
+img:hover {
+    border: 2px solid yellow; 
+    /* (right, down, blur (softness), spread (r,g,b, opacity) */
+    box-shadow: 0px 0px 20px 3px rgba(255, 255, 0, 0.5);
+}
+
+.reset-button {
+    width: 100px;
+    height: 50px;  
+    background-color: darkgrey; 
+    border: 1px solid white; 
+    border-radius: 8px; 
+    margin-top: 10px; 
+}
+
+.reset-button:hover {
+    border: 2px solid yellow; 
+    box-shadow: 0px 0px 20px 3px rgba(255, 255, 0, 0.5);
+}
+
+
+
+
+
